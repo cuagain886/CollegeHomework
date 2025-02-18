@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deleteclassmate</class>
+ <widget class="QWidget" name="deleteclassmate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>删除同学信息</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{border-radius:6;color:white;background-color:rgb(85, 237, 187);}
+QPushButton:pressed{border-radius:6;color:white;background-color:rgb(191, 240, 224);}
+QLineEdit{border:2px solid #bdc3c7;border-radius: 6;}
+QWidget#deleteclassmate{background-color: #34495e;}
+QLabel{color:white;}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>301</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>姓名：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="classmatenamelineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请输入要删除的同学的姓名</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="surepushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

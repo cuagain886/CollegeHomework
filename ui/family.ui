@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>family</class>
+ <widget class="QWidget" name="family">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>亲戚</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{border-radius:6;color:white;background-color:rgb(85, 237, 187);}
+QPushButton:pressed{border-radius:6;color:white;background-color:rgb(191, 240, 224);}
+QLineEdit{border:2px solid #bdc3c7;border-radius: 6;}
+QWidget#family{background-color: #34495e;}
+QLabel{color:white;}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>351</width>
+     <height>153</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>姓名：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="fanlineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请输入亲戚的姓名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>出生日期：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="fablineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请按xxxx-xx-xx格式输入</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>邮件：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="faelineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请输入亲戚的邮件地址</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>电话：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="faplineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请输入亲戚的电话号码</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>称呼：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="faclineEdit">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>250</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="placeholderText">
+       <string>请输入对该亲戚的称呼</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="surepushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>80</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

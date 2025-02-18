@@ -1,0 +1,7 @@
+
+QTableView{background-color: white;border-radius: 6;}
+QPushButton{border-radius:6;color:white;background-color:rgb(85, 237, 187);}
+QPushButton:pressed{border-radius:6;color:white;background-color:rgb(191, 240, 224);}
+QLineEdit{border:2px solid #bdc3c7;border-radius: 6;}
+QWidget#centralwidget{background-color: #34495e;}
+QLabel{color:white;}

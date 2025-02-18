@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>selecttyle</class>
+ <widget class="QWidget" name="selecttyle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>录入</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{border-radius:6;color:white;background-color:rgb(85, 237, 187);}
+QPushButton:pressed{border-radius:6;color:white;background-color:rgb(191, 240, 224);}
+QLineEdit{border:2px solid #bdc3c7;border-radius: 6;}
+QWidget#selecttyle{background-color: #34495e;}
+QLabel{color:white;}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;请选择录入的人的身份&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>461</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="classmatepushButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>同学</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="workmatepushButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>同事</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="friendpushButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>朋友</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="familypushButton">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>亲戚</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
